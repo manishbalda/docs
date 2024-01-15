@@ -21,33 +21,20 @@ To deploy a Shardeum Testnet Validator node:
 8. Select the instance plan that suits your needs. You can use the "Create Custom Plan" toggle to create custom plans for your CPU based instance.
 9. Configure Storage (SSD) plan for your instance. Use the "Add Persistent Storage" toggle to add persistent storage for your instance.
 10. You can add advanced configuration if required. [Click here](/compute/cluster/#advance-configuration-1) to know more.
-11. Click "Deploy" to initiate deployment.
+11. Be sure to set a secure password.
+12. Click "Deploy" to initiate deployment.
 
 ## How to run the node?
 
 - Once the deployment is complete and you have a provider host with assigned ports, follow these steps in your terminal:
 
-```
-ping provider.us-east.spheron.wiki
-# or
-ping provider.spheron.wiki
-```
-
-- Set the IP address of the server as values for the variables **SERVERIP** and **LOCALLANIP**.
 - Update Port Variables:
-  - **SHMEXT:** Update from 9001 -> External Port assinged on 9001.
+  - **SHMEXT:** Update from 9001 -> External Port assigned on 9001.
   - **SHMINT:** Update from 10001 -> External Port assigned on 10001.
-- In the Compute Shell Tab, execute the following command to update the dashboard password:
-
-```
-operator-cli gui set password yourpasswordherewrite
-```
-
-<Callout type="info">**NOTE:** The default password is **HELLO**.</Callout>
 
 ## Verify Installation
 
-Use the `Connection URL` provided by Spheron under **Port Policy Info for Port 8080** to access the Shardeum UI for running the validator node.
+Use the `Connection URL` provided by Spheron under **Port Policy Info for Port 8080** to access the Shardeum UI for running the validator node. Be sure to append `https://` to the `Connection URL` mapped to port 8080.
 
 **NOTE:** This will work only when the instance log
 displays the message:
