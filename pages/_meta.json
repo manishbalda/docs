@@ -1,5 +1,6 @@
 {
   "index": "Quick Start",
+  "getting-started":"Getting Started",
   "billing": "Billing",
   "organization": "Organization",
   "compute": "Compute",
@@ -10,6 +11,7 @@
   "rest-api": "Spheron API",
   "github-actions": "Github Actions",
   "terraform": "Spheron Terraform",
+  "general-info":"General Information",
   "signup": {
     "title": "Sign Up ↗",
     "type": "page",

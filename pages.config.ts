@@ -1,5 +1,12 @@
 export const Pages = [
   ["Quick Start", "/"],
+  ["Getting Started", "/getting-started"],
+  ["Intro To Spheron", "/getting-started/spheron-intro"],
+  ["Architecture", "/getting-started/architecture"],
+  ["Provider Tier", "/getting-started/provider-tier/"],
+  ["High Tier Provider", "/getting-started/provider-tier/high-tier-provider"],
+  ["Payment System", "/getting-started/payment-system"],
+  ["Deployment Lifecycle", "/getting-started/deployment-lifecycle"],
   ["Billing", "/billing"],
   ["Payment Method", "/billing/payment-method"],
   ["Manage Funds", "/billing/funds"],
@@ -73,4 +80,5 @@ export const Pages = [
   ["Github Actions", "/github-actions"],
   ["Instance Update Action", "/github-actions/instance-update-action"],
   ["Spheron Terraform", "/terraform"],
+  ["General Information", "/general-info"], 
 ];
