@@ -3,12 +3,6 @@ import styles from "../styles/quick.module.css";
 
 const QUICK_START_LIST = [
   {
-    path: "/getting-started/spheron-intro",
-    emoji: "🚀",
-    title: "Getting Started",
-    body: "Help for wherever you are on your Spheron Protocol journey",
-  },
-  {
     path: "/billing",
     emoji: "💸",
     title: "Billing",
@@ -58,15 +52,9 @@ const QUICK_START_LIST = [
   },
   {
     path: "/terraform",
-    emoji: "⚙️",
+    emoji: "🛠️",
     title: "Spheron Terraform",
     body: "Deploy compute instances with Terraform.",
-  },
-  {
-    path: "/general-info",
-    emoji: "🔒",
-    title: "General Information",
-    body: "General info for safety and spheron",
   },
 ];
 

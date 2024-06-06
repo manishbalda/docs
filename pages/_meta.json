@@ -1,5 +1,8 @@
 {
-  "index": "Quick Start",
+  "index": {
+    "title": "Getting Started",
+    "display": "hidden"
+  },
   "getting-started":"Getting Started",
   "billing": "Billing",
   "organization": "Organization",

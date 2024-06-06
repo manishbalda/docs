@@ -1,7 +1,5 @@
 export const Pages = [
-  ["Quick Start", "/"],
   ["Getting Started", "/getting-started"],
-  ["Intro To Spheron", "/getting-started/spheron-intro"],
   ["Architecture", "/getting-started/architecture"],
   ["Provider Tier", "/getting-started/provider-tier/"],
   ["High Tier Provider", "/getting-started/provider-tier/high-tier-provider"],
